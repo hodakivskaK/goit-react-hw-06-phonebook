@@ -56,7 +56,8 @@ export const App = () => {
     
   // delete contact
   const deleteContact = (id) => {
-      dispatch(removeContact(id))
+    dispatch(removeContact(id))
+    dispatch(setFilter(''))
       };
   
     
